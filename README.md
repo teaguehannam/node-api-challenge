@@ -34,19 +34,32 @@ Follow these steps for completing your project.
 
 Commit your code regularly and use descriptive messages. This helps both you (in case you ever need to return to old code) and your Team Lead.
 
-## Self-Study/Essay Questions
-
-Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
+## Questions
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+	Express is a Node.js framework, and designed for building single-page, multi-page applications
+
 - [ ] Describe Middleware?
+
+	connects components and also does something (logger, validation)
 
 - [ ] Describe a Resource?
 
+	the data that is being accessed by the model files
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+	res.status(200)
+	res.status(201)
+	res.status(404) - item not found
+	res.status(500) - error
+
 - [ ] How can we partition our application into sub-applications?
+
+	separate logic, api calls, from the main application
+
+	
 
 ## Minimum Viable Product
 
